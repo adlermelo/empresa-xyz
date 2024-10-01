@@ -1,0 +1,132 @@
+/* Estilos Gerais */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Container do Formulário */
+.form-container {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+    /* A margem e padding foram removidos, ajuste conforme necessário */
+}
+
+/* Cabeçalho do Formulário */
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    min-height: 150px;
+    flex-wrap: wrap;
+}
+
+.form-header .header-text {
+    flex: 1;
+    text-align: center;
+}
+
+.form-header .header-logo img {
+    width: 110px;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Grupo de Formulário */
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Rodapé do Formulário */
+.form-footer {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Controle de Exibição de Páginas */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Modal */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.modal-content {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.modal-backdrop {
+    overflow-y: auto;
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+}
+
+/* Cabeçalho Fixo */
+.header-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    z-index: 1000;
+    padding-top: 20px;
+    height: 140px;   
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background: radial-gradient(circle at top, #007C87, #00332c);
+}
+
+.container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:focus {
+    box-shadow: none; /* Remove o efeito de sombra */
+    outline: none; /* Remove o contorno padrão */
+}
+
+.loading-container {
+    width: 500px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+.progress {
+    height: 20px;
+}
