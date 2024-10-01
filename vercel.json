@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "public/index.php",
-        "use": "@vercel/php"
+        "use": "@vercel/static-build"
       }
     ],
     "routes": [
@@ -13,4 +13,5 @@
       }
     ]
   }
+  
   
