@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top, #007C87, #00332c); /* Gradiente radial com a cor #007C87 */
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente mais escuro */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    max-width: 400px; /* Largura máxima para o container */
+    width: 100%; /* Largura total em dispositivos pequenos */
+}
+
+/* Estilo do título */
+.welcome-title {
+    font-size: 36px; /* Tamanho do texto ajustado */
+    margin-bottom: 20px; /* Espaçamento inferior reduzido */
+    letter-spacing: 2px; /* Espaçamento entre letras reduzido */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+/* Estilo do botão iniciar */
+.start-button {
+    background-color: white;
+    color: #004d40;
+    border: none;
+    padding: 10px 20px; /* Espaçamento interno ajustado */
+    font-size: 18px; /* Tamanho da fonte ajustado */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transições */
+}
+
+.start-button:hover {
+    background-color: #e0f7fa;
+    color: #00251a;
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+/* Ajuste do formulário de login */
+.form-control {
+    background-color: transparent;
+    border: 2px solid white; /* Borda ao redor do campo */
+    color: white;
+    font-size: 20px; /* Tamanho da fonte aumentado */
+    border-radius: 8px; /* Bordas arredondadas */
+    height: 50px; /* Altura dos campos ajustada */
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.form-control:focus {
+    border-color: #e0f7fa; /* Cor da borda ao focar */
+    box-shadow: none; /* Remove a sombra padrão */
+}
+
+.login-button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px; /* Tamanho da fonte ajustado */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transições */
+    margin-top: 20px; /* Espaçamento superior ajustado */
+}
+
+.login-button:hover {
+    background-color: #00332c;
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
