@@ -15,8 +15,8 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://your-url-from-vercel.app",
-    "APP_KEY": "base64:YOUR_APP_KEY_HERE"
+    "APP_URL": "https://empreza-xyz-vercel.app",
+    "APP_KEY": "uk+HILfddkSb6F0AtnzEzMwQRxgQszY9XYKxeAdOT50="
     
   }
 }
