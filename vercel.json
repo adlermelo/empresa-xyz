@@ -3,20 +3,19 @@
   "builds": [
     {
       "src": "public/index.php",
-      "use": "@vercel/php"
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "public/index.php"
+      "dest": "/public/index.php"
     }
   ],
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://empreza-xyz-vercel.app",
+    "APP_URL": "https://empresa-xyz-vercel.app",
     "APP_KEY": "uk+HILfddkSb6F0AtnzEzMwQRxgQszY9XYKxeAdOT50="
-    
   }
 }
